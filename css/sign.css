@@ -1,0 +1,59 @@
+@import url(utilities.css);
+@import url(style.css);
+body{
+    background-color: var(--primary);
+}
+header{
+    background: var(--dark);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 75% 65%, 0 100%);
+}
+.tab
+{
+    width:420px;
+    height:440px;
+    border: 2px black transparent;
+    border-radius: 10px;
+    position: absolute;
+    background-color: var(--dark);
+    color: var(--pure);
+    left: calc(50% - 200px);
+    top: 30vh;
+    margin-top: 50px;
+    padding: 20px;
+}
+.tab a{
+    color: var(--pure);
+}
+.tab h3{
+    padding-bottom: 15px;
+}
+.in{
+    border-radius: 5px;
+    width: 350px;
+    height: 35px;
+    font-family: sans-serif;
+}
+#button{
+    background-color: var(--primary);
+    color: var(--dark);
+}
+
+header h1{
+    color: var(--pure);
+}
+h1{
+    text-align: center;
+    padding-top: 20px;
+}
+
+.right h1{
+    padding-left: 970px;
+    padding-bottom: 50px;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,71 @@
+@import url(utilities.css);
+@import url(style.css);
+body{
+    background-color: var(--primary);
+}
+header{
+    background: var(--dark);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 75% 65%, 0 100%);
+}
+.img{
+    width: 100%;
+    height: 90vh;
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 70px;
+    opacity: 0.5;
+    position: absolute;
+}
+.tab
+{
+    width:400px;
+    height:280px;
+    border: 2px black transparent;
+    border-radius: 10px;
+    position: absolute;
+    background-color: var(--dark);
+    color: var(--pure);
+    left: calc(50% - 200px);
+    top: 30vh;
+    margin-top: 50px;
+    padding: 20px;
+}
+.tab a{
+    color: var(--pure);
+}
+.tab h3{
+    padding-bottom: 15px;
+}
+.in{
+    border-radius: 5px;
+    width: 350px;
+    height: 35px;
+    font-family: sans-serif;
+}
+#button{
+    background-color: var(--primary);
+    color: var(--dark);
+}
+
+h1{
+    color: var(--pure);
+}
+
+.right h1{
+    padding-left: 700px;
+    padding-bottom: 50px;
+}
+.branding img{
+    padding-left: 200px;
+}
+.tab h5{
+    padding-top: 20px;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,39 @@
+@import url(style.css);
+
+.head{
+    background-color: var(--dark);
+    height: 120px;
+    color: var(--pure);
+    text-align: center;
+    padding-top: 45px;
+    font-size: 2rem;
+}
+
+.cont{
+    background-color: var(--primary);
+    height: 100%;
+    padding-top: 50px;
+}
+.cont h3{
+    color: var(--dark);
+    text-align: center;
+    font-size: 2rem;
+}
+
+.cont h4{
+    color: var(--dark);
+    text-align: center;
+    font-size: 1.7rem;
+    padding-bottom: 25px;
+}
+
+.b1{
+    border: 2px solid var(--dark);
+    color: var(--pure);
+    background-color: var(--dark);
+}
+
+.b1:hover{
+    color: var(--dark);
+    border: var(--dark);
+}
